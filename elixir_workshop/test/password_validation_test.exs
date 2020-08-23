@@ -1,6 +1,6 @@
 defmodule PasswordValidationTest do
   use ExUnit.Case
-  doctest ElixirWorkshop
+  doctest PasswordValidation
 
   test "true is true" do
     assert true == true

@@ -9,6 +9,16 @@ The goal of this workshop is to learn the basics of the Elixir programming langu
 
 The exercises in this workshop is based on the base exercise sets, which can be found [**here.**](https://github.com/bergenpolyglotprogrammers/exercises). Each set of exercises contains different exercises but laid out the same way and roughly the same difficulty progression.
 
+## :desktop_computer: Setup
+
+To get started, you will need to download Elixir. You can find the correct installer / command at [elixir-lang.org](https://elixir-lang.org/install.html).
+
+We also recommend you use [Visual Studio Code](https://code.visualstudio.com/Download) with the `ElixirLS` extension, which can be found in the VS Code marketplace. 
+
+![Elixir LS](./img/elixir_ls_marketplace.png)
+
+After you have installed Elixir, visit the `elixir_workshop` folder and run `mix test`. This folder contains a `mix-project` that you can use to fill in your code. 
+
 ## Progression
 
 - **Task 1** - Introduces the simples concepts: input, output, compiling and running.

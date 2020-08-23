@@ -1,6 +1,6 @@
 defmodule SortingRecordsTest do
   use ExUnit.Case
-  doctest ElixirWorkshop
+  doctest SortingRecords
 
   test "true is true" do
     assert true == true
