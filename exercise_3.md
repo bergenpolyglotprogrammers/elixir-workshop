@@ -45,6 +45,33 @@ Jake Jackson        | Software Engineer   | 2010-10-14
 Tou Xiong           | Software Engineer   | 2016-10-05
 ```
 
+### Part 3 - Sorting
+
+Modify the program to sort the employees by their hired date, in ascending order.
+
+```
+Name                |   Position          | Hired date
+--------------------|---------------------|------------
+Jake Jackson        | Software Engineer   | 2010-10-14
+Michaela Michaelson | District Manager    | 2015-07-04
+John Johnson        | Manager             | 2016-08-05
+Tou Xiong           | Software Engineer   | 2016-10-05
+```
+
+### :star: Bonus: Interactive search
+
+Can you write a program where you enter a search term and return all the employees whose name contains your search term.
+
+
+```
+Enter your search term: J
+
+Name                |   Position          | Hired date
+--------------------|---------------------|------------
+Jake Jackson        | Software Engineer   | 2010-10-14
+John Johnson        | Manager             | 2016-08-05
+```
+
 ## Next: Project - Jeopardy
 
 [Go to project :arrow_right:](./project.md)
