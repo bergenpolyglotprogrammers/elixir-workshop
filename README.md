@@ -35,7 +35,11 @@ The exercises in this workshop is based on the base exercise sets, which can be 
 
 # Exercises
 
-- [Task 1 - Password Validation](./set1/README.md)
-- [Task 2 - Karvonen Heart Rate](./set1/README.md)
-- [Task 3 - Sorting Records](./set1/README.md)
+- [Task 1 - Password Validation](./exercise_1.md)
+- [Task 2 - Karvonen Heart Rate](./exercise_2.md)
+- [Task 3 - Sorting Records](./exercise_3.md)
 - [Project - Jeopardy](./project.md)
+
+:bulb: If you want to use the starter project created for this workshop, you should find a `.ex`-file in for each of the exercises in the `elixir_workshop/lib/` folder. 
+
+For simplicity, we are just going to keep all the exercises in one project. To run a module with a spesific function, run `mix run -e <modulename>.<function>`. E.g, for the first exercise, you can run `mix run -e PasswordValidation.run`, where `run` would be your entry point.
