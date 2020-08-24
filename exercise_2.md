@@ -36,7 +36,7 @@ Intensity   |   Rate
 95%         |   191 bpm
 ```
 
-### Example code
+### Useful code
 #### Streams
 [Streams](https://hexdocs.pm/elixir/Stream.html) can be useful to generate sequences in Elixir. They are lazy enumerables, allowing us to i.e map over the range without triggering an enumeration. 
 
@@ -68,6 +68,22 @@ Enum.map(1..10, fn x -> x * 2 end)
 1..10
 |> Enum.map(&(&1*2))
 # [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+```
+
+#### Iterating through collection
+
+The `&Enum.each/2` function is useful for iterating through a collection without returning a new collection. It is useful in cases where you might want to iterate through a collection and print it to the console.
+
+Here we map over an enum to create a tuple of its value and its square value, and use `&Enum.each/2` to print the values. The return value is simply the atom `:ok`.
+```elixir
+1..5
+|> Enum.map(fn x -> {x, x * x} end)
+|> Enum.each(fn {x, x_sqr} -> IO.puts("#{x}\t#{x_sqr}") end)
+# 1       1
+# 2       4
+# 3       9
+# 4       16
+# 5       25
 ```
 
 ## Next: Task 3 - Sorting Records
