@@ -30,19 +30,34 @@ Michaela Michaelson | District Manager    | 2015-07-04
 Tou Xiong           | Software Engineer   | 2016-10-05
 ```
 
-Don't stress with exact tabular output if the language's standard library does not include support for it. The goal of the exercise is sort a list of objects and print the output. 
+---
+
+:exclamation: In the `elixir_workshop` project, under `lib/sorting_records.ex`, the data has been added to a static variable in the module. Feel free to use this if you don't want to type out the data yourself.
+
+```elixir
+defmodule SortingRecords do
+  @employees [
+      ...
+  ]
+end
+```
+
+:bulb: Don't stress with exact tabular output if the language's standard library does not include support for it. The goal of the exercise is sort a list of objects and print the output. 
 
 If you would like to continue without writing logic for the tables, there is a library included in the `elixir_workshop` project called `Scribe`, which will pretty-print your data for you, and long as it is a list of structs. 
 
+Input:
 ```elixir
 data = [%{firstname: "John", lastname: "Doe"}]
 Scribe.print(data)
-
-# +--------------+-------------+
-# | :firstname   | :lastname   |
-# +--------------+-------------+
-# | "John"       | "Doe"       |
-# +--------------+-------------+
+```
+Output:
+```
++--------------+-------------+
+| :firstname   | :lastname   |
++--------------+-------------+
+| "John"       | "Doe"       |
++--------------+-------------+
 ```
 
 ### Part 2 - Filtering
@@ -58,23 +73,9 @@ Jake Jackson        | Software Engineer   | 2010-10-14
 Tou Xiong           | Software Engineer   | 2016-10-05
 ```
 
-### Part 3 - Sorting
-
-Modify the program to sort the employees by their hired date, in ascending order.
-
-```
-Name                |   Position          | Hired date
---------------------|---------------------|------------
-Jake Jackson        | Software Engineer   | 2010-10-14
-Michaela Michaelson | District Manager    | 2015-07-04
-John Johnson        | Manager             | 2016-08-05
-Tou Xiong           | Software Engineer   | 2016-10-05
-```
-
 ### :star: Bonus: Interactive search
 
 Can you write a program where you enter a search term and return all the employees whose name contains your search term.
-
 
 ```
 Enter your search term: J
