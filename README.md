@@ -43,4 +43,4 @@ The exercises in this workshop is based on the base exercise sets, which can be 
 
 :bulb: If you want to use the starter project created for this workshop, you should find a `.ex`-file in for each of the exercises in the `elixir_workshop/lib/` folder. 
 
-For simplicity, we are just going to keep all the exercises in one project. To run a module with a spesific function, run `mix run -e <modulename>.<function>`. E.g, for the first exercise, you can run `mix run -e PasswordValidation.run`, where `run` would be your entry point.
+For simplicity, we are just going to keep all the exercises in one project. To run a module with a spesific function, run `mix run -e <modulename>.<function>`. E.g, for the first exercise, you can run `mix run -e PasswordValidation.run`, where `run` would be your entry point. Alternatively, you can load your project into the IEx [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) and run it - which we will test in the warmup exercise. 
