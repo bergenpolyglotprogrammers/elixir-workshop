@@ -1,5 +1,5 @@
-defmodule Jeopardy.Game do
-  alias Jeopardy.{GameMenu, QuestionHandler}
+defmodule Solutions.Trivia.Game do
+  alias Solutions.Trivia.{GameMenu, QuestionHandler}
 
   def run(), do: game_loop(0)
 

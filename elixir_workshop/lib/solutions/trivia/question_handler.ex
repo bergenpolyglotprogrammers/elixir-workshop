@@ -1,5 +1,5 @@
-defmodule Jeopardy.QuestionHandler do
-  alias Jeopardy.{GameMenu, JServiceIO}
+defmodule Solutions.Trivia.QuestionHandler do
+  alias Solutions.Trivia.{GameMenu, JServiceIO}
 
   @spec next_question(any) :: {:ok, pos_integer()} | {:quit, pos_integer()} | {:show_score, pos_integer()}
   def next_question(points) do

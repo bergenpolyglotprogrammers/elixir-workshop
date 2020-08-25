@@ -1,4 +1,4 @@
-defmodule Jeopardy.GameMenu do
+defmodule Solutions.Trivia.GameMenu do
 
   @spec handle_menu_input :: :quit | :show_question | :show_score
   def handle_menu_input() do
