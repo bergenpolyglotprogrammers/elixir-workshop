@@ -63,6 +63,10 @@ Thank you for playing. You achieved 800 points
 
 > :tada: Remember to have some fun! Throw in some [ASCII art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20) or something here, use some [console colors](https://dennisbeatty.com/2019/03/12/cool-clis-in-elixir-part-2-with-io-ansi.html).
 
+We have added some code to get you started. If you look in `elixir_workshop/lib/trivia/`, you will see that two files are added. `jserviceio.ex` is an implementation use of `Tesla`, a HTTP client for elixir that you can use to make your HTTP calls. The other file `game.ex` is there to get you started with writing your application. 
+
+Feel free to look at the suggested solution in `solutions` if you are stuck or are in need of inspiration. 
+
 <br />
 <br />
 ---

@@ -27,7 +27,22 @@ Welcome!
 
 ---
 
-### Example code
+### Useful code
+
+Here are some code snippets that you might find useful for this task.
+
+#### Creating a module with a function
+
+```elixir
+defmodule MyModule do
+  def my_func() do
+
+  end
+end
+```
+
+You can call this function from the terminal by moving to the folder of your mix project and typing `mix run -e MyModule.my_func`. This is not the canonical way of starting an elixir application, but we will run our programs this way for now, for simplicity's sake. 
+
 #### Reading user input
 
 Example of two ways to get user input from a console.
