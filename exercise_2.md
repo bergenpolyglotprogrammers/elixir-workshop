@@ -9,7 +9,10 @@ Input, Output, Loops, Math
 ### Description
 
 The Karvonen heart rate formula is one method of determining your target heart rate when exercising to avoid overexerting yourself.
-Create a program that prompts for your age and your resting heart rate, then use the Karvonen forumla to determine the target heart rate based on intensities from 55% to 95%. Generate a table with the results.
+
+:pencil2: There are dependencies ready to be installed to help you with this exercise. Run `mix deps.get` in your terminal, while in the root of the `elixir_workshop` folder.  
+
+:pencil2: Create a program that prompts for your age and your resting heart rate, then use the Karvonen forumla to determine the target heart rate based on intensities from 55% to 95%. Generate a table with the results.
 
 Use a loop to cover all 5% increases in intensity and not a hard-coded set of input prompts.
 

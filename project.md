@@ -69,11 +69,12 @@ Feel free to look at the suggested solution in `solutions` if you are stuck or a
 
 <br />
 <br />
+
 ---
 
 # Let's play jeopardy!
 
-If you gotten this far, you might want a larger project to work on. In this part, you will make a much more advanced Jeopardy-like trivia application.
+If you gotten this far, you might want a larger project to work on. In this part, you will make a much more advanced Jeopardy-like trivia application. Some of the business logic you wrote in the first part of the project can be re-used. 
 
 ## Familiarize yourself with the API
 
