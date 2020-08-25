@@ -10,11 +10,12 @@ The goal of this workshop is to learn the basics of the Elixir programming langu
 
 The exercises in this workshop is based on the base exercise sets, which can be found [**here.**](https://github.com/bergenpolyglotprogrammers/exercises). Each set of exercises contains different exercises but laid out the same way and roughly the same difficulty progression.
 
-## :information_source: Useful resources
+## Useful resources
 - [elixir-lang.org documentation](https://elixir-lang.org/getting-started/introduction.html)
 - [HexDocs documentation](https://hexdocs.pm/elixir/Kernel.html)
+- **[Elixir cheatsheet](https://devhints.io/elixir)**
 
-## :desktop_computer: Setup
+## Setup
 
 :wrench: To get started, you will need to download Elixir. You can find the correct installer / command at [elixir-lang.org](https://elixir-lang.org/install.html).
 
@@ -26,7 +27,7 @@ The exercises in this workshop is based on the base exercise sets, which can be 
 
 :wrench: After you have installed Elixir, visit the `elixir_workshop` folder and run `mix test`. This folder contains a `mix`-project that you can use to fill in your code. 
 
-## :rocket: Progression
+## Progression
 
 - **Task 1** - Introduces the simples concepts: input, output, compiling and running.
 - **Task 2** - Works with loops, conditionals, objects, etc.
@@ -34,7 +35,7 @@ The exercises in this workshop is based on the base exercise sets, which can be 
 - **Project** - Introduces a bigger project to spend the rest of the time on. This usually includes talking with external web services, databases and touches on the full feature set of a programming language.
 
 # Exercises
-
+- [Warmup exercise - IEx](./warmup.md)
 - [Task 1 - Password Validation](./exercise_1.md)
 - [Task 2 - Karvonen Heart Rate](./exercise_2.md)
 - [Task 3 - Sorting Records](./exercise_3.md)
