@@ -1,6 +1,75 @@
-# Jeopardy
+# Simple trivia game
+
+In this project you will make a simple trivia game, using the open trivia API [jservice.io](http://jservice.io/). This API has many trivia questions in many categories that we can use to make a simple game.
 
 In this project you will make a Jeopardy-like trivia game using the open trivia API [jservice.io](http://jservice.io/). This API has many trivia questions in many categories that we can use to make a simple game.
+
+## Familiarize yourself with the API
+
+:pencil2: Go to [http://jservice.io/](http://jservice.io/) and familiarize yourself with the API - specifically the `/Random` (`/api/random`) endpoint, which we will use to fetch random questions. 
+
+:pencil2: Go ahead and call the API endpoint yourself to familiarize yourself with the returned data. You can use whatever tools you want, be it cURL, [Fiddler](https://www.telerik.com/fiddler), [Postman](https://www.postman.com/), or anything else.
+
+## Game requirements
+
+The simple trivia game you're about to make should work something like this:
+
+- It should run in the terminal (if you want to make a website out of it, that's fine too, but you should know what you're doing since it typically takes a lot more time to make a GUI).
+- The program should show a menu with choices to either:
+    - Show a question and prompt for an answer
+    - Show score
+    - Exit program
+
+- When a user selects *Show a question and prompt for an answer*, fetch a random from the `jservice.io` API and show it to the user, along with the number of points it's worth. After the question has been shown, prompt the user for an answer. It might be difficult to do actual string comparisons to verify a correct answer, so you could implement a second prompt which asks whether the answer was correct or not. If the question is correctly answered, the value of the question should be added to the users points.
+
+- When a user selects *Show score*, the score of the user should be displayed in the terminal.
+
+- When a user selects *Exit program*, the users points should be displayed and the program should terminate.
+
+After each action, the menu should be printed and prompt the user for a new action. 
+
+The program might look something like this:
+```
+Enter a meny option:
+1 - Show random question
+2 - Show score
+3 - Quit
+1
+
+For 800 points:
+
+        In 1965 the Univ. of Florida football team began using this drink developed by school researchers
+
+        Answer: Gatorade
+        The correct answer is: Gatorade
+
+        Was your answer correct? (y/n): y
+
+Enter a meny option:
+1 - Show random question
+2 - Show score
+3 - Quit
+2
+
+Your score is now 800 points
+Enter a meny option:
+1 - Show random question
+2 - Show score
+3 - Quit
+3
+
+Thank you for playing. You achieved 800 points
+```
+
+> :tada: Remember to have some fun! Throw in some [ASCII art](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20) or something here, use some [console colors](https://dennisbeatty.com/2019/03/12/cool-clis-in-elixir-part-2-with-io-ansi.html).
+
+<br />
+<br />
+---
+
+# Let's play jeopardy!
+
+If you gotten this far, you might want a larger project to work on. In this part, you will make a much more advanced Jeopardy-like trivia application.
 
 ## Familiarize yourself with the API
 
