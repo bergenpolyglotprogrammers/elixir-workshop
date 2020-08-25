@@ -1,4 +1,4 @@
-defmodule Jeopardy.JServiceIO do
+defmodule Trivia.JServiceIO do
   use Tesla
 
   plug Tesla.Middleware.BaseUrl, "https://jservice.io/api"
