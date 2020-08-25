@@ -26,3 +26,7 @@ You can load the files of your mix project into a IEx session by typing `iex -S 
 After making a change, you can type `recompile` in the REPL to compile your project and make new changes available. 
 
 :bulb: In the next exercises, you can either execute your scripts using the IEx REPL, or run them using `mix run -e <ModuleName>.<Function>`. 
+
+## Next: Task 1 - Password Validation
+
+[Go to task :arrow_right:](./exercise_1.md)
